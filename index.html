@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="styles.css">
@@ -37,7 +38,7 @@
     </header>
 
         <div class="sidebar">
-            <title>Dashboard</title>
+          <h2 class="sidebar-title">Dashboard</h2>  <!--Add symbol before title with it-->
             <div class="menu1">
                 <ul>
                     <li>Home</li>
@@ -58,7 +59,7 @@
         </div>
 
       <div class="article">
-        <title>Your Projects</title>
+      <h2 class="left-title">Your Projects</h2>
         <div class="card">
           <p class="title">Project</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
@@ -86,23 +87,28 @@
     </div>
 
         <div class="article-right">
-            <title>Announcements</title>
-            <div class="card">
-            <p class="title">Project</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+          <h2 class="right-title">Announcements</h2>
+          <div class="card">
+            <div class="announcement">
+              <p class="title">Announcement 1</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
             </div>
-            <title>Trending</title>
+            <hr>
+            <div class="announcement">
+              <p class="title">Announcement 2</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+            <hr>
+            <div class="announcement">
+              <p class="title">Announcement 3</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+            </div>
+          <h2 class="right-title">Trending</h2> 
             <div class="card">
-            <p class="title">Project</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+            <p>Add your custom trending items here!</p>
             </div>
         </div>
-
-
-
-
-
-
     </div>
 </body>
 </html>
